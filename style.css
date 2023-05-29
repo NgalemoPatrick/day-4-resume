@@ -28,7 +28,6 @@ body {
     border: 2px solid #2c78ab;
     background-color: #2c78ab ;
     width: 30%;
-    text-align: center;
     flex-direction: column;
     justify-content: space-evenly;
 }
@@ -39,6 +38,7 @@ body {
 }
 
 .image {
+    text-align: center;
     border: solid red;
     padding-top: 50px;
     height: 350px;
@@ -58,6 +58,7 @@ h1 , h2 {
 .contact {
     border: solid blue;
     height: 500px;
+    color: white;
 }
 
 .relevent-skills {
