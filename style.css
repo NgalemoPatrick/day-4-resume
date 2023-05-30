@@ -41,6 +41,9 @@ body {
     border-bottom-right-radius: 20px;
     background-color: white;
     width: 70%;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
 }
 
 .image {
@@ -79,7 +82,7 @@ ul, h3 {
     margin-left: 75px;
 }
 
-.linkedin-logo, .email-logo, .phone-logo, .web-logo, .porfiolo-logo {
+.linkedin-logo, .email-logo, .phone-logo, .web-logo, .porfiolo-logo , .work-logo {
     width: 35px;
     height: 35px;
 }
@@ -87,4 +90,56 @@ ul, h3 {
     display: flex;
     justify-content: space-evenly;
     text-align: center;
+}
+
+.work-experience {
+    /* border: solid black; */
+    height: 500px;
+
+}
+.highlight {
+    /* border: solid blue; */
+    width: 80%;
+    height: 45px;
+    margin-left: 20%;
+    margin-top: 5%;
+    padding-top: 15px;
+    padding-left: 15px;
+    background-color: lightblue;
+}
+.work {
+    display: flex;
+    gap: 25px;
+    margin-left: 30%;
+    margin-top: 40px;
+}
+.work-logo {
+
+}
+    
+.education {
+    border: solid red;
+    height: 500px;
+
+}
+
+.certifications {
+    border: solid blue;
+    height: 350px;
+}
+.desc {
+    font-size: 20px; 
+  
+}
+.description {
+    margin-left: 30%;
+    margin-top: 15px;
+}
+#work-place {
+    margin-top: 25px;
+
+}
+li {
+    width: 40ch;
+    margin: 5px;
 }
