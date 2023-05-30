@@ -22,6 +22,7 @@ body {
     border-top-left-radius: 20px;
     border-bottom-right-radius: 20px;
     border-bottom-left-radius: 20px; */
+    font-size: 1.3rem;
     display: flex;
 }
 .profile-section {
@@ -118,9 +119,7 @@ ul, h3 {
 }
     
 .education {
-    border: solid red;
     height: 500px;
-
 }
 
 .certifications {
